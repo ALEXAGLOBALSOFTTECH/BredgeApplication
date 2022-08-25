@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interests.InterestsActivity">
+    <RelativeLayout
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:outlineAmbientShadowColor="@color/Primary_color"
+            android:outlineSpotShadowColor="@color/Primary_color"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/verification_background">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_path_35"
+                app:tint="#FFFFFF" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textColor="@color/Primary_color"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:layout_marginEnd="10dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content">
+                <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                    android:id="@+id/dots_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="6dp"
+                    app:dotsColor="@color/Primary_color"
+                    app:dotsCornerRadius="5dp"
+                    app:dotsSize="16dp"
+                    app:dampingRatio="0.4"
+                    android:layout_gravity="center_vertical"
+                    app:dotsSpacing="4dp"
+                    app:dotsWidthFactor="2"
+                    app:selectedDotColor="@color/Primary_color"
+                    app:progressMode="true"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back"
+        android:layout_marginTop="-15dp">
+
+        <TextView
+            android:id="@+id/send_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Complete "
+            android:textColor="#000000"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/send_to"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="-15dp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="your profile"
+            android:textColor="#A740E4"
+            android:textSize="35dp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Lorem Ipsum is simply dummy text of the printing"
+        android:textColor="#1E0C00"
+        android:textSize="12dp" />
+    <LinearLayout
+        android:id="@+id/text3"
+        android:layout_below="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Follow"
+                android:textColor="@color/Primary_color" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Unfollow"
+                android:textColor="@color/Primary_color"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:elevation="10dp"
+            android:background="@drawable/cm_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textColor="@color/Primary_color2"
+                android:text="Follow" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/text4"
+        android:layout_below="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="4"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Follow"
+                android:textColor="@color/Primary_color" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/cm_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Unfollow"
+                android:textColor="@color/Primary_color2"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Follow"
+                android:textColor="@color/Primary_color" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/cm_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Unfollow"
+                android:textColor="@color/Primary_color2"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/text5"
+        android:layout_below="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Follow"
+                android:textColor="@color/Primary_color" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Unfollow"
+                android:textColor="@color/Primary_color"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:elevation="10dp"
+            android:background="@drawable/cm_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textColor="@color/Primary_color2"
+                android:text="Follow" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/text6"
+        android:layout_below="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Follow"
+                android:textColor="@color/Primary_color" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Unfollow"
+                android:textColor="@color/Primary_color"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:elevation="10dp"
+            android:background="@drawable/cm_background"
+            android:layout_margin="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:textColor="@color/Primary_color2"
+                android:text="Follow" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/verification_background"
+        android:onClick="social"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:tint="@color/Primary_color2" />
+
+</RelativeLayout>

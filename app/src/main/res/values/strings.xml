@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bredge</string>
+    <string name="forgot_password"><u>SignIn into your account</u></string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="resend"><u>Resend</u></string>
+</resources>

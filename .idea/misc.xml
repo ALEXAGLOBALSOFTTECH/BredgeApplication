@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable-v24/edit_background.xml" value="0.172" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable-v24/fallow_background.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable-v24/follow_background.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/cm_background.xml" value="0.194" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/dial_pad_background.xml" value="0.207" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/facebook_background.xml" value="0.194" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/feed_background_create_post.xml" value="0.1915" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/feed_connection_background.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/feed_top_background.xml" value="0.195" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2035" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1925" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_facebook.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_g32.xml" value="0.2045" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_10794.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_21513.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_21515.xml" value="0.2045" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_21577.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_21578.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_21580.xml" value="0.1925" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_21584.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_21587.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_24585.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_group_24588.xml" value="0.2045" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_instagram_sketched.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_path_35.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_path_46645.xml" value="0.2045" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_path_46737.xml" value="0.1965" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_path_57814.xml" value="0.2045" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_twitter.xml" value="0.2045" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/ic_xmlid_801_.xml" value="0.2045" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/insta_background.xml" value="0.195" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/login_edittext_background.xml" value="0.186" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/onboard_button_background.xml" value="0.187" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/onboarding_screen_background.xml" value="0.177" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/thumb_selector.xml" value="0.194" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/track_selector.xml" value="0.194" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/drawable/verification_background.xml" value="0.2115" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout-land/activity_verification.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout-large/activity_login.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_dashboard.xml" value="0.21" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_dashboard2.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_feed.xml" value="0.22" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_interests.xml" value="0.25" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_people_you_know.xml" value="0.22" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_social_connected.xml" value="0.18" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_successful_accounty.xml" value="0.22" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_update_profile.xml" value="0.25" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/activity_verification.xml" value="0.33" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/notification_count.xml" value="0.67" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/Bredge/app/src/main/res/layout/story_layout.xml" value="0.12268518518518519" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

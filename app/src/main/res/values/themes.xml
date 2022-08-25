@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Bredge" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Primary_color</item>
+        <item name="colorPrimaryVariant">@color/Primary_color2</item>
+        <item name="colorOnPrimary">@color/Primary_color2</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Primary_color</item>
+        <item name="colorSecondaryVariant">@color/Primary_color</item>
+        <item name="colorOnSecondary">@color/Primary_color</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Item" parent="">
+        <item name="android:textColor">@color/Primary_color</item>
+        <item name="android:layout_margin">100dp</item>
+    </style>
+    <style name="Item.Tumblr">
+        <item name="android:layout_width">@dimen/_100sdp</item>
+        <item name="android:layout_height">@dimen/_100sdp</item>
+        <item name="android:textSize">8dp</item>
+        <item name="android:textColor">@color/Primary_color</item>
+    </style>
+    <style name="Item.Path">
+        <item name="android:layout_width">@dimen/_50sdp</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:background">@drawable/cm_background</item>
+    </style>
+</resources>

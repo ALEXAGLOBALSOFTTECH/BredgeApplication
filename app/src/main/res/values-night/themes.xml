@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Bredge" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Primary_color</item>
+        <item name="colorPrimaryVariant">@color/Primary_color1</item>
+        <item name="colorOnPrimary">@color/Primary_color2</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Primary_color</item>
+        <item name="colorSecondaryVariant">@color/Primary_color</item>
+        <item name="colorOnSecondary">@color/Primary_color</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

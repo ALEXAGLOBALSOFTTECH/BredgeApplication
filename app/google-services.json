@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "31450205869",
+    "project_id": "vbmshop-6e8bc",
+    "storage_bucket": "vbmshop-6e8bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31450205869:android:00e38d7e5514e6677fc024",
+        "android_client_info": {
+          "package_name": "com.alexa.bredge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31450205869-j8o7n4saitr44ivcnjmn17v5ph90s66h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alexa.bredge",
+            "certificate_hash": "abdaef726649cbb9558b97a1f990154fa77387c1"
+          }
+        },
+        {
+          "client_id": "31450205869-tba2s77pbj0rshdmlkeluj1i9kln6nmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx-rNHzSgj8y0ocyuGMRZQfCdBVgbJeMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31450205869-tba2s77pbj0rshdmlkeluj1i9kln6nmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

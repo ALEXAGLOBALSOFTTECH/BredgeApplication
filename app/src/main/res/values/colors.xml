@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!---Onboarding Screen theemStart-->
+<color name="Primary_color">#8925F0</color>
+<color name="Primary_color1">#F98AC7</color>
+<color name="Primary_color2">#FFFFFF</color>
+<color name="Primary_color3">#000000</color>
+<color name="Primary_color4">#C55BDA</color>
+    <!---Onboarding Screen theem End-->
+    <!---Feed grideant color-->
+    <color name="insta_color_1">#FFBD31</color>
+    <color name="insta_color_2">#FF6969</color>
+    <color name="insta_color_3">#FF46C8</color>
+
+</resources>
